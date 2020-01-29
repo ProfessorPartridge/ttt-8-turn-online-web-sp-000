@@ -24,6 +24,10 @@ def display_board(board_array)
   puts " #{board_array[6]} | #{board_array[7]} | #{board_array[8]} "
 end
 
-def move()
-  
+def input_to_index(input)
+  input.to_i - 1
+end
+
+def move(board_array, index, char="X")
+  board_array[index] = char
 end
