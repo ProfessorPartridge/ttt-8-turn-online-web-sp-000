@@ -39,7 +39,6 @@ def turn(board)
   if valid_move?(board, clean_input) == true
     move(board, clean_input)
   else
-    puts "That input is not valid. Pleae input a number between 1 and 9"
     turn(board)
   end
 end
