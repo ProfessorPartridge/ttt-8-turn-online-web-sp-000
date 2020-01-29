@@ -40,4 +40,5 @@ def turn(board)
     move(board, clean_input)
   else
     puts "That input is not valid. Pleae input a number between 1 and 9"
+  end
 end
